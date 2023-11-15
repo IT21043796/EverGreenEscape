@@ -1,0 +1,209 @@
+#content{
+	background-image: url("Resources/Images/heritageBackground.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100vh	;
+	
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  float: right;
+  margin-top: 20px;
+  padding-right: 7px;
+  font-size: 36px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  font-family: "Monaco", monospace;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #075556;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  
+  color: #075556;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+#nav img {
+	margin-top: 7.6px;
+	margin-left: 10px;
+}
+
+#links{
+	padding-top: 15px;
+	padding-left: 5px;
+	height: 15vh;
+	width: 99%;
+	position: absolute;
+	background-color: #F5F5F5;
+	z-index: 1;
+}
+#content{
+	height: 83vh;
+	width: 99%;
+	position: absolute;
+	z-index: 1; 
+	margin-top: 15vh;
+	font-family: "Monaco", monospace;
+}
+#nav{
+	height: 12vh;
+	width: 75%;
+	margin-left: 12.5%;
+	margin-top: 8.75vh;
+	background-color: white;
+	z-index: 2;
+	position: absolute;
+	color: black;
+	border-radius: 5px;
+}
+
+
+table{
+	width: 75%;
+	font-size: 18px;
+}
+
+#data {
+	color: grey;
+	font-family: "Monaco", monospace;
+}
+
+.fa-brands {
+	color: grey;
+}
+
+.fa-brands:hover {
+	color: #075556;
+	cursor: pointer;
+}
+
+
+/*new csssss*/
+
+
+.page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+	margin-top: 55px;
+}
+
+.left-section {
+  width: 40%;
+  padding: 20px;
+}
+
+.place-title {
+  text-align: center;
+}
+
+.place-title h1 {
+  font-size: 36px;
+}
+
+place-title p {
+  font-size: 16px;
+}
+
+.right-section {
+  width: 60%;
+  padding: 20px;
+}
+
+.carousel {
+  display: flex;
+  overflow:scroll;
+}
+
+::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+	scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.carousel-item {
+  width: 200px;
+	height: 55vh;
+  text-align: center;
+  background: rgba(255,255,255,0.7);
+	margin: 5px;
+	padding: 2px;
+	position: relative;
+}
+
+.carousel-item img {
+  width: 200px;
+	height: 130px;
+	margin: -1px;
+}
+
+.carousel-item h2 {
+  font-size: 20px;
+  color:#075556;
+	font-weight: bold;
+}
+
+.carousel-item p {
+  font-size: 14px;
+	color: dimgrey;
+	height: 17vh;
+}
+
+.readmorebtn {
+  
+  padding: 10px 20px;
+  background-color:gray;
+  color: #fff;
+  border: none;
+}
+
+.readmorebtn:hover{
+	 background-color: #075556;	
+}
+.btn {
+	position: absolute;
+	bottom: 10px;
+	margin-left: 12.5%;
+}
+.n {
+	color: white;
+	font-family: fantasy ;
+	margin: 2px;
+	 	-webkit-text-stroke-width: 1px; 
+     -webkit-text-stroke-color: white; 
+     -webkit-text-fill-color: transparent; 
+	
+} 
+.place-title h1{
+	font-size: 120px;
+	letter-spacing: 20px;
+}
+
+.place-title p{
+	font-size: 20px;
+	color: white;
+	letter-spacing: 5px;
+	font-family: "Trattatello, fantasy";
+	font-variant: small-caps;
+		
+}

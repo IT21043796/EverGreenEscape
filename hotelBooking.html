@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="hotelBooking.css">
+	<title>Tour Plans</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+
+</head>
+<body>
+	
+	<div id="links"><center>
+		<table>
+			<tr>
+				<td id="data"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp evergreenescape@gmail.com &nbsp|&nbsp <i class="fa-solid fa-phone"></i>&nbsp +94 70 413 3458 </td>
+				<td><i class="fa-brands fa-facebook-f"></i></td>
+				<td><i class="fa-brands fa-instagram"></i></td>
+				<td><i class="fa-brands fa-linkedin-in"></i></td>
+				<td><i class="fa-brands fa-youtube"></i></td>
+				<td></td>
+			</tr>
+		</table></center>
+	</div>
+
+	<div id="nav">
+		<a href="Home.html"><img src="Resources/Images/logo.png" width="189px" height="70px"></a>
+		<div class="topnav" id="myTopnav">
+		  <a href="Home.html">Home</a>
+		  <a href="About.html">About</a>
+		  <a href="Contact.html">Contact</a>
+		  <a href="hotelBooking.html" class="active">Hotel Booking</a>
+		  <a href="Galary.html" >Gallery</a>
+		  <a href="Heritage.html">Heritage</a>
+		</div>
+	</div>
+
+	<div id="content">
+		
+		 <div class="outerBox">
+			<center><h1>Make your reservation</h1></center>
+			<form>
+				<div class="form-group long">
+					<label for="first-name">First Name</label>
+					<input type="text" id="first-name" name="first-name" required>
+				</div>
+				<div class="form-group long">
+					<label for="last-name">Last Name</label>
+					<input type="text" id="last-name" name="last-name" required>
+				</div> <br>
+				<div class="form-group long">
+					<label for="address1">Address 1</label>
+					<input type="text" id="address1" name="address1">
+				</div>
+				<div class="form-group long">
+					<label for="address2">Address 2</label>
+					<input type="text" id="address2" name="address2">
+				</div><br>
+				<div class="form-group">
+					<label for="city">City</label>
+					<input type="text" id="city" name="city">
+				</div>
+				<div class="form-group">
+					<label for="province">Province</label>
+					<input type="text" id="province" name="province">
+				</div>
+				<div class="form-group">
+					<label for="postal-code">Postal Code</label>
+					<input type="text" id="postal-code" name="postal-code">
+				</div><br>
+				<div class="form-group long">
+					<label for="phone">Phone Number</label>
+					<input type="tel" id="phone" name="phone">
+				</div>
+				<div class="form-group long">
+					<label for="email">Email Address</label>
+					<input type="email" id="email" name="email">
+				</div><br>
+				<div class="form-group">
+					<label for="check-in-date">Check-in Date</label>
+					<input type="date" id="check-in-date" name="check-in-date">
+				</div>
+				<div class="form-group">
+					<label for="check-in-time">Check-in Time</label>
+					<input type="time" id="check-in-time" name="check-in-time">
+				</div>
+				<div class="form-group">
+					<label for="check-out-date">Check-out Date</label>
+					<input type="date" id="check-out-date" name="check-out-date">
+				</div>
+				<div class="form-group">
+					<label for="check-out-time">Check-out Time</label>
+					<input type="time" id="check-out-time" name="check-out-time">
+				</div><br>
+				<div class="form-group">
+					<label>Room Preferences</label>
+					<div class="radio-group">
+						<input type="radio" id="standard" name="room-preference" value="Standard">
+						<label for="standard">Standard</label>
+					</div>
+					<div class="radio-group">
+						<input type="radio" id="deluxe" name="room-preference" value="Deluxe">
+						<label for="deluxe">Deluxe</label>
+					</div>
+					<div class="radio-group">
+						<input type="radio" id="suite" name="room-preference" value="Suite">
+						<label for="suite">Suite</label>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="adults">Adults</label>
+					<input type="number" id="adults" name="adults" min="1" max="10" step="1" required>
+				</div>
+				<div class="form-group">
+					<label for="children">Children</label>
+					<input type="number" id="children" name="children" min="0" max="10" step="1" required>
+				</div><br>
+				<center><div class="form-group">
+					<button type="submit">Submit</button>
+				</div></center>
+			</form>
+    </div>
+		
+		
+		
+		
+	</div>
+</body>
+</html>
